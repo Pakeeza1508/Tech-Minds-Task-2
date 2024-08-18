@@ -1,0 +1,80 @@
+
+/* login started */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', arial;
+}
+.box{
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(128, 0, 128, 0.534);
+    /* background: linear-gradient(rgba(0, 0, 255, 0.596), purple); */
+}
+form{
+    background: linear-gradient(rgba(128, 0, 128, 0.705), rgba(0, 0, 255, 0.596));
+    position: absolute;
+    top : 15%;
+    box-shadow: 0 5px 20px 0  rgba(0, 0, 255, 0.596);
+    border-radius: 20px;
+}
+.box h2{
+    margin-top: 20px;
+    color : purple;
+    font-size: 40px;
+    text-align: center;
+}
+.box input{
+    background: transparent;
+    margin : 30px 45px 0;
+    width: 400px;
+    height : 40px;
+    padding : 10px;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: white;
+    color: white;
+
+}
+.inputbox i{
+    position: relative;
+    top: 3%;
+    right: 15%;
+    font-size: 15px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.box form .links{
+    color : white;
+    display: flex;
+    margin: 40px 50px;
+    justify-content: space-between;
+}
+.box form .links a{
+    color : white;
+    text-decoration: none;
+}
+.box form .links a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.box form input[type="submit"]{
+    margin: 2px 50px 20px;
+    color : blue;
+    background: whitesmoke;
+    border : none;
+    border-radius: 5px;
+    cursor : pointer;
+    font-weight: 900;
+}
+.box form input[type="submit"]:hover{
+    color: rgba(0, 0, 255, 0.767);
+    background-color: grey;
+}
